@@ -1,5 +1,23 @@
 package com.atak.analyse;
+/*
+O (1): La complexité temporelle d'une fonction (ou d'un ensemble d'instructions) est considérée comme O (1) si elle ne contient pas de boucle,
+de récursivité et d'appel à toute autre fonction temporelle non constante.
+// ensemble d'instructions non récursives et non boucle
+Par exemple, la fonction swap () a une complexité temporelle O (1).
+Une boucle ou une récursivité qui s'exécute un nombre constant de fois est également considérée comme O (1)
 
+O (n): La complexité temporelle d'une boucle est considérée comme O (n) si les variables de la boucle sont incrémentées / décrémentées d'une
+quantité constante. Par exemple, les fonctions suivantes ont une complexité temporelle O (n).
+
+O (n c ) : La complexité temporelle des boucles imbriquées est égale au nombre d'exécutions de l'instruction la plus interne. Par exemple, les exemples de boucles suivants ont une complexité temporelle O (n 2 )
+
+O (Logn) : La complexité temporelle d'une boucle est considérée comme O (Logn) si les variables de boucle sont divisées / multipliées par une quantité constante.
+
+O (LogLogn) : la complexité temporelle d'une boucle est considérée comme O (LogLogn) si les variables de boucle sont réduites / augmentées
+de façon exponentielle d'une quantité constante.
+
+
+ */
 public class CommonLoop {
     int n = (int) Math.random(), c = (int) Math.random();
 
